@@ -1,0 +1,11 @@
+com\test\Post.class
+com\test\App.class
+com\test\event\model\Request.class
+com\test\event\model\Variables.class
+com\test\event\model\AppSyncEvent.class
+com\test\event\model\Stash.class
+com\test\event\model\Arguments.class
+com\test\DependencyFactory.class
+com\test\event\model\AppSyncEventTruncated.class
+com\test\event\model\Info.class
+com\test\event\model\Headers.class

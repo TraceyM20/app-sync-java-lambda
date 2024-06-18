@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.AppTest" time="0.47" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Development\sample-project\sample-project\target\test-classes;C:\Development\sample-project\sample-project\target\classes;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\s3\2.14.3\s3-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\aws-xml-protocol\2.14.3\aws-xml-protocol-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\aws-query-protocol\2.14.3\aws-query-protocol-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\protocol-core\2.14.3\protocol-core-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\arns\2.14.3\arns-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\profiles\2.14.3\profiles-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\sdk-core\2.14.3\sdk-core-2.14.3.jar;C:\Users\TraceyM\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\Users\TraceyM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.4\jackson-core-2.10.4.jar;C:\Users\TraceyM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.4\jackson-databind-2.10.4.jar;C:\Users\TraceyM\.m2\repository\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\auth\2.14.3\auth-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\eventstream\eventstream\1.0.1\eventstream-1.0.1.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\http-client-spi\2.14.3\http-client-spi-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\regions\2.14.3\regions-2.14.3.jar;C:\Users\TraceyM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.4\jackson-annotations-2.10.4.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\annotations\2.14.3\annotations-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\utils\2.14.3\utils-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\aws-core\2.14.3\aws-core-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\metrics-spi\2.14.3\metrics-spi-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\url-connection-client\2.14.3\url-connection-client-2.14.3.jar;C:\Users\TraceyM\.m2\repository\com\amazonaws\aws-lambda-java-core\1.2.0\aws-lambda-java-core-1.2.0.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\TraceyM\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\TraceyM\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.22_7\bin"/>
+    <property name="sun.java.command" value="C:\Users\TraceyM\AppData\Local\Temp\surefire12609736107601151715\surefirebooter-20240612114716429_3.jar C:\Users\TraceyM\AppData\Local\Temp\surefire12609736107601151715 2024-06-12T11-47-16_176-jvmRun1 surefire-20240612114716429_1tmp surefire_0-20240612114716429_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Development\sample-project\sample-project\target\test-classes;C:\Development\sample-project\sample-project\target\classes;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\s3\2.14.3\s3-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\aws-xml-protocol\2.14.3\aws-xml-protocol-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\aws-query-protocol\2.14.3\aws-query-protocol-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\protocol-core\2.14.3\protocol-core-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\arns\2.14.3\arns-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\profiles\2.14.3\profiles-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\sdk-core\2.14.3\sdk-core-2.14.3.jar;C:\Users\TraceyM\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\Users\TraceyM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.4\jackson-core-2.10.4.jar;C:\Users\TraceyM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.4\jackson-databind-2.10.4.jar;C:\Users\TraceyM\.m2\repository\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\auth\2.14.3\auth-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\eventstream\eventstream\1.0.1\eventstream-1.0.1.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\http-client-spi\2.14.3\http-client-spi-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\regions\2.14.3\regions-2.14.3.jar;C:\Users\TraceyM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.4\jackson-annotations-2.10.4.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\annotations\2.14.3\annotations-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\utils\2.14.3\utils-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\aws-core\2.14.3\aws-core-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\metrics-spi\2.14.3\metrics-spi-2.14.3.jar;C:\Users\TraceyM\.m2\repository\software\amazon\awssdk\url-connection-client\2.14.3\url-connection-client-2.14.3.jar;C:\Users\TraceyM\.m2\repository\com\amazonaws\aws-lambda-java-core\1.2.0\aws-lambda-java-core-1.2.0.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\TraceyM\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\TraceyM\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\TraceyM\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\TraceyM"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.22_7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Development\sample-project\sample-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\TraceyM\AppData\Local\Temp\surefire12609736107601151715\surefirebooter-20240612114716429_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.22+7-LTS"/>
+    <property name="user.name" value="TraceyM"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.22.7.1"/>
+    <property name="localRepository" value="C:\Users\TraceyM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\TraceyM\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.22"/>
+    <property name="user.dir" value="C:\Development\sample-project\sample-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.22_7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.22_7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\CVArchiverAddin;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Development\;C:\Development\apache-maven-3.9.6\bin;C:\Program Files\RedHat\Podman\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Git\cmd;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\TraceyM\AppData\Local\Microsoft\WindowsApps;C:\Users\TraceyM\AppData\Local\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Users\TraceyM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\TraceyM\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.22+7-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="skiptest" value="true"/>
+  </properties>
+  <testcase name="handleRequest_shouldReturnConstantValue" classname="com.test.AppTest" time="0.458">
+    <error message="com.fasterxml.jackson.core.JsonParseException: Unrecognized token &apos;echo&apos;: was expecting (JSON String, Number, Array, Object or token &apos;null&apos;, &apos;true&apos; or &apos;false&apos;)&#10; at [Source: (String)&quot;echo&quot;; line: 1, column: 5]" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: 
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'echo': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"echo"; line: 1, column: 5]
+	at com.test.App.handleRequest(App.java:55)
+	at com.test.AppTest.handleRequest_shouldReturnConstantValue(AppTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'echo': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"echo"; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1840)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:722)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2867)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1913)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:772)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4356)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3214)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3182)
+	at com.test.App.handleRequest(App.java:53)
+	... 56 more
+]]></error>
+    <system-out><![CDATA[Hello
+echo
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
